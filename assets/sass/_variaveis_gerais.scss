@@ -1,0 +1,24 @@
+body{
+    --cor-preto: #181818;
+    --cor-cinza-escuro: #474747;
+    --cor-cinza-claro: #EBE9EA;
+    --cor-branco: #F6F6F6;
+
+    
+}
+
+
+
+
+//Cor
+
+$cor-preto: #{var(--cor-preto)};
+$cor-cinza-escuro: #{var(--cor-cinza-escuro)};
+$cor-cinza-claro: #{var(--cor-cinza-claro)};
+$cor-branco: #{var(--cor-branco)};
+
+
+
+//fontes
+
+$fonte-1: 'Montserrat', sans-serif;

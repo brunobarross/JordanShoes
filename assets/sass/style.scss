@@ -1,0 +1,23 @@
+@import "../sass/variaveis_gerais";
+@import "../sass/reset";
+@import "../sass/menu";
+
+
+body{
+    font-family: $fonte-1;
+    color: $cor-preto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 1rem
+}
+
+
+
+
+.page__home{
+    @import "../sass/page_home";
+}
